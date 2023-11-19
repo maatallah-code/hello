@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Nommer l'entete de la page par <<le Web>> -->
+    <title>Le WEB </title>
+
+    <!-- Désigner les mots << WEB >> et <<HTML>> comme mots clée de la page -->
+    <meta name="keywords" content="WEB,HTML">
+
+
+    <style type="text/css">
+        /* Les caractéristiques du tableau : largeur du tableau = largeur de la page ,
+        sans bordure */
+        table {
+            width: 100%;
+        }
+
+        /* Les caractéristiques de la légende : taille du texte = 30points , 
+           couleur du texte = rouge */
+        caption {
+            font-size: 30pt;
+            color: red;
+        }
+
+        /* Les caractéristiques de l'entetedu tableau : 
+        couleur du fond(background-color)=e0e0e0,
+        taille du texte(font-size)=18 point(18pt),
+        alignement du texte= centré (text-align: center);
+        texte en italique (font-style: italic);
+        texte en MAJUSCULE (text-transform: uppercase)
+        */
+
+        thead,
+        tfoot {
+            background-color: #e0e0e0;
+            font-size: 18pt;
+            text-align: center;
+            font-style: italic;
+            text-transform: uppercase;
+
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <table>
+
+        <!--Ajouter une légende nomméé << WEB>> au tableau-->
+        <caption>WEB</caption>
+
+        <thead>
+
+            <tr>
+                <th>web 1.0</th>
+                <th>web 2.0</th>
+                <th>web 3.0</th>
+            </tr>
+
+        </thead>
+
+        <tfoot>
+
+            <tr>
+                <!--le text <<CLIQUER -ICI >> est la zone cliquable
+                     d'un lien hypertexte référençant une page nommée "contact.html"-->
+                <th colspan="3">
+                    pour nous contacter <a href="contact.html">cliquer-ici</a>
+                </th>
+            </tr>
+
+
+
+        </tfoot>
+        <tbody>
+            <!--liste ordonnée-->
+            <tr>
+                <td>
+                    <ol type="A">
+
+
+
+                        <li>
+                            HTML.1
+                        </li>
+                        <li>
+                            HTML.2
+                        </li>
+                        <li>
+                            HTML.3
+                        </li>
+                        <li>
+                            HTML.4
+                        </li>
+                    </ol>
+                </td>
+                            <!--liste non-ordonnée-->
+
+                <td>
+                    <ul>
+                        <li>
+                            XHTML
+                        </li>
+                    </ul>
+                </td>
+                                <!--liste non-ordonnée-->
+
+                <td>
+                    <ul>
+                        <li>
+                            HTML5
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>
